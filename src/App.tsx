@@ -2,7 +2,10 @@
 
 const App = () => {
   return (
-    <div>Earning Edge Application</div>
+    <div className=" h-screen flex justify-center items-center"> <h1 className="text-3xl">
+      Earning Edge Application
+      </h1>
+      </div>
   )
 }
 
