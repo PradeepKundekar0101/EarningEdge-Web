@@ -1,11 +1,10 @@
-// import React from 'react'
-
+import Layout from "./Layout/index"
+import { Outlet } from "react-router-dom"
 const App = () => {
   return (
-    <div className=" h-screen flex justify-center items-center"> <h1 className="text-3xl">
-      Earning Edge Application
-      </h1>
-      </div>
+    <Layout outlet={<Outlet/>}/>
+
+    // </Layout>
   )
 }
 
